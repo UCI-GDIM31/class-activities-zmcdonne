@@ -21,7 +21,7 @@ public class Ball : MonoBehaviour
         //_bounces = _bounces + 2;
         //_bounces + 1
         _bounces--;
-        //_bounces++;
+       _bounces++;
         //_bounces += 1
         // STEP 1 -------------------------------------------------------------
 
@@ -45,7 +45,7 @@ public class Ball : MonoBehaviour
         //r += 0.1f
         //r * 0.1;
         r = r + 0.1f;
-        //r = r * 0.1f;
+        r = r * 0.1f;
         //r += 0.1;
         // STEP 2 -------------------------------------------------------------
 
@@ -58,7 +58,7 @@ public class Ball : MonoBehaviour
             // Uncomment ONE of the below lines of code to set the value of 'r' to ZERO.
             //r = 0.0f
             r = 0.0f;
-            //r 0.0f;
+
             // STEP 3 ---------------------------------------------------------
         }
 
