@@ -22,7 +22,7 @@ public class CatW3 : MonoBehaviour
     private float _health;
 
     // ------------------------------------------------------------------------
-    private void Start ()
+    private void Start()
     {
         _health = _maxHealth;
     }
@@ -90,12 +90,12 @@ public class CatW3 : MonoBehaviour
         if (ball != null)
         {
             ChangeColor(ball);
-
+            DecreaseHealth();
             // STEP 2 ---------------------------------------------------------
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
-            
+
 
             // STEP 2 ---------------------------------------------------------
 
@@ -107,8 +107,11 @@ public class CatW3 : MonoBehaviour
             //
             // Try toggling the Destroy Cat When Dead setting on the Inspector,
             //      and see how the cat is removed ONLY when it's checked!
-            
 
+if (_health <= 0 && _destroyCatWhenDead)
+{
+    DestroyCat();
+}
             // STEP 6 ---------------------------------------------------------
         }
     }
@@ -127,16 +130,18 @@ public class CatW3 : MonoBehaviour
     //     decides the text that displays in the UI for this Component.
     //      Hint: there's just one operator missing!
     private void DecreaseHealth()
+
     {
         // write Step 3 below this comment!
 
-
+        _health = _health - 1;
+        _healthText.text = "health = " + _health;
         // STEP 5 -------------------------------------------------------------
         // Once you've finished Step 4, CALL the GetHealthSpeechText method
         //      and store the result in _speechText's text variable.
         // This will look very similar to the above line to change _healthText ;)
 
-
+        _speechText.text = GetHealthSpeechText();
         // STEP 5 -------------------------------------------------------------
     }
     // STEP 3 -----------------------------------------------------------------
@@ -153,11 +158,17 @@ public class CatW3 : MonoBehaviour
     //      return "OH NO!".
     // 2. Otherwise, return "ouch".
 
-    //private ??? GetHealthSpeechText()
-    //{
-        // put the method body here!
-        
-    //}
+    private string GetHealthSpeechText()
+    {
+        if (_health < _maxHealth / 2)
+        {
+            return "OH NAAAHHHHH!";
+        }
+        else
+        {
+            return "AUGGGHHH";
+        }
+ }       
     
     // STEP 4 -----------------------------------------------------------------
 
