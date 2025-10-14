@@ -17,6 +17,18 @@ They are float variables because their applied values (numbers) have decimals fo
 
  The line of code was missing a semicolen,part two taught us how inportant it is to add the semicolen. 
 
+ ### week 3 in class
+
+ I was on table 14 this class, and we discussed the prompt we were given suronding sanity and lighting and how we would programm it. The parameter would be the player’s sanity level, and the output would control the lighting level. If the method doesn’t need to return anything, the return type could be void. The parameter (the player’s sanity level) would determine changes in the lighting level.
+
+
+In class, my group and I came up with a metaphor to represent classes, components, variables, and numbers.
+We chose the analogy of a skinwalker and the skins they collect. The component is the skinwalker, and the classes are the skins. A skinwalker uses different skins, just like a component uses different classes. The numerical variables determine the behavior, and the number of variables in a class influences how the component acts.Methods define how something acts, while variables and numbers represent their traits to be more spesific. 
+
+We don’t set a limit on the brightness of the ball and therfor it keeps getting brighter. 
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
