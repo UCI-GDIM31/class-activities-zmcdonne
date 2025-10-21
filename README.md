@@ -27,6 +27,10 @@ We chose the analogy of a skinwalker and the skins they collect. The component i
 
 We don’t set a limit on the brightness of the ball and therfor it keeps getting brighter. 
 
+### week 4
+1. What solution did you come up with for the collider activity, and why? Solutions such as fitting the collider to the object, locking the Z and X axes where the main issues occur, and forgetting to submit something as a trigger. Specifically, which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on? Trigger on the goal, Rigidbodies were added to everything because those are the objects that need physics. If your game did not work perfectly the first time you tested it, talk about what you had to fix. I needed to make the collider fit the items better, lock in the correct axes, and remember to set the goal as a trigger.
+
+
 
 
 ## Open-Source Assets
