@@ -29,6 +29,22 @@ We don’t set a limit on the brightness of the ball and therfor it keeps gettin
 
 
 
+### w4
+
+for this week table 14.
+
+lines 17:
+    private bool _isGrounded = true;
+    28: 
+    if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
+    32:
+      _isGrounded = false;
+
+_isGrounded is a member variable, and its a boolean statment. it makes sure the cat douesnt double jump, default is true
+
+line 28, when you press down on the space key and are groundes then it triggers the if statment.
+
+line 32 if the player character isnt gronded then it triggers the false statment of the ifstatment. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
