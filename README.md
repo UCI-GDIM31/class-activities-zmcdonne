@@ -30,6 +30,16 @@ We don’t set a limit on the brightness of the ball and therfor it keeps gettin
 ### week 4
 1. What solution did you come up with for the collider activity, and why? Solutions such as fitting the collider to the object, locking the Z and X axes where the main issues occur, and forgetting to submit something as a trigger. Specifically, which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on? Trigger on the goal, Rigidbodies were added to everything because those are the objects that need physics. If your game did not work perfectly the first time you tested it, talk about what you had to fix. I needed to make the collider fit the items better, lock in the correct axes, and remember to set the goal as a trigger.
 
+### week 5 
+For this weeks we learned baout vectors overkill to use, was my quesitona dn i was curious when you have to use then , the professor responded, that it is never overkill, and it is unaoidable.  i found all the questions useful. tho :) 
+
+
+terrain 
+
+    1. What member variable(s) does this class need?  catlocation so it knows where the cat is, not collide with sutff
+    2. What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write? update and collision 
+    3. What should the method(s) do? the methods , collide with the methods, moves forwars. basiclly it needs to walk foraward and not collide in the ground steps we are using for that, find the object, walk twords the object, with stopping beign optinal.
+1. Then, have one partner code your solution while the other partner watches and makes suggestions.
 
 
 
