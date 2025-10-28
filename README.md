@@ -25,21 +25,16 @@ They are float variables because their applied values (numbers) have decimals fo
 In class, my group and I came up with a metaphor to represent classes, components, variables, and numbers.
 We chose the analogy of a skinwalker and the skins they collect. The component is the skinwalker, and the classes are the skins. A skinwalker uses different skins, just like a component uses different classes. The numerical variables determine the behavior, and the number of variables in a class influences how the component acts.Methods define how something acts, while variables and numbers represent their traits to be more spesific. 
 
-We don’t set a limit on the brightness of the ball and therfor it keeps getting brighter. 
+We don’t set a limit on the brightness of the ball and therefore it keeps getting brighter. 
 
 ### week 4
 1. What solution did you come up with for the collider activity, and why? Solutions such as fitting the collider to the object, locking the Z and X axes where the main issues occur, and forgetting to submit something as a trigger. Specifically, which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on? Trigger on the goal, Rigidbodies were added to everything because those are the objects that need physics. If your game did not work perfectly the first time you tested it, talk about what you had to fix. I needed to make the collider fit the items better, lock in the correct axes, and remember to set the goal as a trigger.
 
 ### week 5 
-For this weeks we learned baout vectors overkill to use, was my quesitona dn i was curious when you have to use then , the professor responded, that it is never overkill, and it is unaoidable.  i found all the questions useful. tho :) 
+This week, we learned about vectors. I asked whether using them might be overkill in some situations, and I was curious about when exactly you have to use them. The professor responded that it’s never overkill—it’s actually unavoidable. I found all the questions during the discussion really useful, though. :)
 
-
-terrain 
-
-    1. What member variable(s) does this class need?  catlocation so it knows where the cat is, not collide with sutff
-    2. What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write? update and collision 
-    3. What should the method(s) do? the methods , collide with the methods, moves forwars. basiclly it needs to walk foraward and not collide in the ground steps we are using for that, find the object, walk twords the object, with stopping beign optinal.
-1. Then, have one partner code your solution while the other partner watches and makes suggestions.
+For the “Deer Code” in-class assignment, Ishaan, another friend, and I were thinking about what member variables the class would need. The first one is catLocation, so it knows where the cat is—this and ofc something to help it avoid collisions and movement function so it can move properly.
+As for the methods, we thought about having update and collision functions. The update method would handle movement (e.g., moving forward), and the collision method would make sure it doesn’t run into things. Basically, the class needs to walk forward without colliding with the ground or other objects. The steps we discussed were: find the object, walk toward it, and optionally follow it when it reaches it.
 
 
 
