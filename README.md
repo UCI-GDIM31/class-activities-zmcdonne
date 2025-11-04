@@ -36,6 +36,14 @@ This week, we learned about vectors. I asked whether using them might be overkil
 For the “Deer Code” in-class assignment, Ishaan, another friend, and I were thinking about what member variables the class would need. The first one is catLocation, so it knows where the cat is—this and ofc something to help it avoid collisions and movement function so it can move properly.
 As for the methods, we thought about having update and collision functions. The update method would handle movement (e.g., moving forward), and the collision method would make sure it doesn’t run into things. Basically, the class needs to walk forward without colliding with the ground or other objects. The steps we discussed were: find the object, walk toward it, and optionally follow it when it reaches it.
 
+### week 6
+
+The member variables needed for this class are speed, chasing, and cat position.
+
+In terms of methods we used to move towards, start() and update(), where it uses the transform to move around. The methods should help with the start chasing and the stop when chasing is false, whereas the update is helping check where the cat is at all times so the bats know when to pounce.
+
+
+
 
 
 ## Open-Source Assets
