@@ -45,11 +45,8 @@ In terms of methods we used to move towards, start() and update(), where it uses
 
 ### week 7
 
-for week sevean in class game activity i did a little bit here and their but mainly animation stuff: https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?usp=sharing
-
-with what was wrong with the code it was using transform instea of translate, as translate the correct choise is a better fit for the parent child relashinsuip for this movment.
-
-
+For week seven’s in-class game activity, I did a little bit here and there, but mainly focused on animation work: https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?usp=sharing
+What was wrong with the code was that it was using transform instead of translate. Translate is the correct choice and is a better fit for the parent–child relationship in this movement. as in i understood it as the character itself being the center of the movment and not the scene.
 
 
 ## Open-Source Assets
