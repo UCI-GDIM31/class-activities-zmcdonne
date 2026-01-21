@@ -43,7 +43,10 @@ The member variables needed for this class are speed, chasing, and cat position.
 In terms of methods we used to move towards, start() and update(), where it uses the transform to move around. The methods should help with the start chasing and the stop when chasing is false, whereas the update is helping check where the cat is at all times so the bats know when to pounce.
 
 
+### week 7
 
+For week seven’s in-class game activity, I did a little bit here and there, but mainly focused on animation work: https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?usp=sharing
+What was wrong with the code was that it was using transform instead of translate. Translate is the correct choice and is a better fit for the parent–child relationship in this movement. as in i understood it as the character itself being the center of the movment and not the scene.
 
 
 ## Open-Source Assets
